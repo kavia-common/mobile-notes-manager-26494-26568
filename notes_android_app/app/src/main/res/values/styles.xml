@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.Notes.Ocean" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ocean_primary</item>
+        <item name="colorSecondary">@color/ocean_secondary</item>
+        <item name="android:statusBarColor">@color/ocean_primary_dark</item>
+        <item name="android:navigationBarColor">@color/ocean_surface</item>
+        <item name="android:windowBackground">@color/ocean_background</item>
+    </style>
+
+    <style name="Widget.Notes.TopAppBar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/ocean_surface</item>
+        <item name="titleTextColor">@color/ocean_text</item>
+        <item name="subtitleTextColor">@color/ocean_text_secondary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="Widget.Notes.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/ocean_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+</resources>

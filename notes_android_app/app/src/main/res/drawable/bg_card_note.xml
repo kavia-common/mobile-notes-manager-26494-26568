@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ocean_surface"/>
+            <corners android:radius="16dp"/>
+            <padding android:left="12dp" android:top="12dp" android:right="12dp" android:bottom="12dp"/>
+            <size android:height="72dp"/>
+        </shape>
+    </item>
+</layer-list>
